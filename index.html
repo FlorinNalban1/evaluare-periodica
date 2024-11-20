@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oral USARB</title>
-    <link rel="stylesheet" href="stayl.css">
+    <link rel="stylesheet" href="stayle.css">
 </head>
 <body>
-    <header class="titru">
-        <h1>Orarul Cursurilor</h1>
-        <div class="alegeri">
-            <button>Grupe</button>
-            <button>Profesori</button>
-            <button>Aule</button>
+    <div class="fon">
+        <div class="master">
+        <h1 class="title">Orarul Cursurilor</h1>
+        <div class="buttons">
+            <button class="button activ">Grupe</button>
+            <button class="button">Profesori</button>
+            <button class="button">Aule</button>
         </div>
+        <div class="date">
+            <span class="modifier-title">Regim pentru student</span>
+            <div class="modifier-slider"></div>
+        </div>
+        <div class="search">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg" data-svg="search-icon">
+                <circle fill="none" stroke="#25975A" stroke-width="1.1" cx="9" cy="9" r="7"></circle>
+                <path fill="none" stroke="#25975A" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path>
+            </svg>
         <main>
-            <section class="date">
-                <label for="student">Regim pentru student</label>
-                <input type="checkbox" id="student-regim">
-                <input type="text" placeholder="Căutați grupa..." id="search-group">
-                <div class="dropdown">
-                    <label for="luni">Luni</label>
-                    <select id="luni">
-                        <option value="week12">12 (18.11.2024 - 24.11.2024)</option>
-                    </select>
-                </div>
-            </section>
         </main>
+        </div>
     </header>
     <dav>
         <img src="img/logo_usarb.png" alt="">

@@ -1,19 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
+body { 
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-rows: auto 1fr ;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
+    box-sizing: border-box;
+    color: #636363;
+    font-size: 16px;
+    line-height: 24px;
     height: 100vh;
+}
+.fon{
+background-image: url(img/new_background_1.png);
+background-size: cover; 
+background-position: center;
+background-repeat: no-repeat;
+}
 
-    background-image: url(img/new_background_1.png);
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
+   
+
+button,
+input {
+    border: none;
 }
 
 header {
