@@ -70,7 +70,7 @@ button, input {
 .modifier-title {
     color: white;
     line-height: 24px;
-    font-weight: 900;
+    font-weight: 500;
 
 }
 .modifier-slider {
@@ -102,7 +102,7 @@ button, input {
 }
 
 .search-input {
-    font-weight: 450;
+    font-weight: 500;
     text-transform: uppercase;
     color: inherit;
     flex-basis: 100%;
@@ -135,7 +135,7 @@ button, input {
 
 
 select#days {
-    width: 450px;
+    width: 700px;
     padding: 15px;
     border: 1px solid #ddd;
     font-size: 16px;
@@ -149,7 +149,7 @@ select#days:focus {
 
 
   select#week {
-    width: 450px;
+    width: 700px;
     padding: 10px;
     border: 1px solid #ddd;
     font-size: 16px;
@@ -167,7 +167,7 @@ select#days:focus {
 
 table {
     border-collapse: collapse;
-    width: 450px;
+    width: 700px;
     text-align: center;
   }
 
@@ -267,6 +267,60 @@ section.main {
     text-align: center;
 }
 
+section h1{
+    color: #e9f5f5;
+}
+
 .main {
     padding: 20px;
 }
+
+.schedule-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table.schedule {
+    width: 700px,100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tbody.tab td {
+    padding: 10px;
+    vertical-align: center;
+}
+
+.time {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 20%;
+}
+
+.subject {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.break:hover {
+    border: none;
+    background-color: #fff9c4;
+    color: #000; 
+}
+
+tr:nth-child(even) .subject {
+    background-color: #f7f7f7;
+}
+
+tr.break .time {
+    background-color: #4caf50;
+}
+
