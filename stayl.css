@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    height: 100vh;
+
+    background-image: url(img/new_background_1.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
