@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr ;
     grid-template-areas:
         "header"
         "main"
@@ -16,3 +16,20 @@ body {
     background-repeat: no-repeat;
 }
 
+header {
+    grid-area: header;
+    background: #25975A;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header.button {
+    background: #25975A;
+    color: #25975A;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
